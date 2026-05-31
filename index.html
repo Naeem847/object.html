@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Course - Sir Khawaja Tahir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Human Computer Interaction (HCI)</h1>
+    <p>Instructor: Sir Khawaja Tahir</p>
+    <nav>    
+        <a href="#profile">Profile</a>
+        <a href="#outline">Course Outline</a>
+        <a href="#resources">Resources</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to HCI Course</h2>
+    <p>Learn User Interface Design, User Experience and Human-Centered Systems.</p>
+</section>
+
+<section id="profile">
+    <h2>Instructor Profile</h2>
+
+    <div class="profile-card">
+        <img src="images/instructor.jpg" alt="Instructor">
+
+        <div>
+            <h3>Sir Khawaja Tahir</h3>
+            <p>Lecturer - Computer Science</p>
+            <p>Expert in HCI, Software Engineering and UI Design.</p>
+        </div>
+    </div>
+</section>
+
+<section id="outline">
+    <h2>Course Outline</h2>
+
+    <h3>Course Objectives</h3>
+
+    <ul>
+        <li>Understand Human Computer Interaction</li>
+        <li>Learn UI Design Principles</li>
+        <li>Improve User Experience Design</li>
+        <li>Evaluate Interface Usability</li>
+    </ul>
+
+    <h3>Weekly Topics</h3>
+
+    <table>
+        <tr>
+            <th>Week</th>
+            <th>Date</th>
+            <th>Topic</th>
+        </tr>
+
+        <tr class="lecture-row" data-week="1" data-topic="Introduction" data-date="2026-01-10">
+            <td>1</td>
+            <td>10 Jan 2026</td>
+            <td>Introduction to HCI</td>
+        </tr>
+
+        <tr class="lecture-row" data-week="2" data-topic="UI Design" data-date="2026-01-17">
+            <td>2</td>
+            <td>17 Jan 2026</td>
+            <td>UI Design Principles</td>
+        </tr>
+
+        <tr class="lecture-row" data-week="3" data-topic="Usability" data-date="2026-01-24">
+            <td>3</td>
+            <td>24 Jan 2026</td>
+            <td>Usability Evaluation</td>
+        </tr>
+    </table>
+
+    <h3>Recommended Books</h3>
+
+    <ul>
+        <li>Human Computer Interaction - Alan Dix</li>
+        <li>The Design of Everyday Things - Don Norman</li>
+        <li>Interaction Design - Preece</li>
+    </ul>
+
+    <h3>Evaluation Criteria</h3>
+
+    <table>
+        <tr>
+            <th>Activity</th>
+            <th>Weight</th>
+        </tr>
+
+        <tr>
+            <td>Assignments</td>
+            <td>10%</td>
+        </tr>
+
+        <tr>
+            <td>Quizzes</td>
+            <td>10%</td>
+        </tr>
+
+        <tr>
+            <td>Mid Exam</td>
+            <td>30%</td>
+        </tr>
+
+        <tr>
+            <td>Final Exam</td>
+            <td>50%</td>
+        </tr>
+    </table>
+</section>
+
+<section id="resources">
+    <h2>Course Resources</h2>
+
+    <div class="filters">
+
+        <input type="text"
+               id="searchInput"
+               placeholder="Search Topic">
+
+        <select id="weekFilter">
+            <option value="">All Weeks</option>
+            <option value="1">Week 1</option>
+            <option value="2">Week 2</option>
+            <option value="3">Week 3</option>
+        </select>
+
+        <input type="date" id="dateFilter">
+
+    </div>
+
+    <div class="resource lecture-row"
+         data-week="1"
+         data-topic="Introduction"
+         data-date="2026-01-10">
+
+        <h3>Introduction to HCI</h3>
+
+        <a href="#">Download PPT</a>
+        <a href="#">YouTube Lecture</a>
+    </div>
+
+    <div class="resource lecture-row"
+         data-week="2"
+         data-topic="UI Design"
+         data-date="2026-01-17">
+
+        <h3>UI Design Principles</h3>
+
+        <a href="#">Download PPT</a>
+        <a href="#">YouTube Lecture</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 HCI Course | Sir Khawaja Tahir</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
